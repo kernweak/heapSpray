@@ -20,7 +20,7 @@ public:
 	protected:
 	virtual void DoDataExchange(CDataExchange* pDX);	// DDX/DDV support
 
-
+	//123
 // Implementation
 protected:
 	HICON m_hIcon;
