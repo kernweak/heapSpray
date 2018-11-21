@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28306.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "injectTools", "injectTools\injectTools.vcxproj", "{3002D18C-3752-4382-BEE4-4C9614AE7F96}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "injectDll", "C:\Users\yrq\source\repos\injectDll\injectDll\injectDll.vcxproj", "{DA91B809-3C48-415E-8C12-F179D9950702}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AEFDD35E-47D6-4929-A5A4-F35A158578D4}"
+	ProjectSection(SolutionItems) = preProject
+		用来构造堆喷射shellcode的代码.html = 用来构造堆喷射shellcode的代码.html
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3002D18C-3752-4382-BEE4-4C9614AE7F96}.Debug|x64.ActiveCfg = Debug|x64
+		{3002D18C-3752-4382-BEE4-4C9614AE7F96}.Debug|x64.Build.0 = Debug|x64
+		{3002D18C-3752-4382-BEE4-4C9614AE7F96}.Debug|x86.ActiveCfg = Debug|Win32
+		{3002D18C-3752-4382-BEE4-4C9614AE7F96}.Debug|x86.Build.0 = Debug|Win32
+		{3002D18C-3752-4382-BEE4-4C9614AE7F96}.Release|x64.ActiveCfg = Release|x64
+		{3002D18C-3752-4382-BEE4-4C9614AE7F96}.Release|x64.Build.0 = Release|x64
+		{3002D18C-3752-4382-BEE4-4C9614AE7F96}.Release|x86.ActiveCfg = Release|Win32
+		{3002D18C-3752-4382-BEE4-4C9614AE7F96}.Release|x86.Build.0 = Release|Win32
+		{DA91B809-3C48-415E-8C12-F179D9950702}.Debug|x64.ActiveCfg = Debug|x64
+		{DA91B809-3C48-415E-8C12-F179D9950702}.Debug|x64.Build.0 = Debug|x64
+		{DA91B809-3C48-415E-8C12-F179D9950702}.Debug|x86.ActiveCfg = Debug|Win32
+		{DA91B809-3C48-415E-8C12-F179D9950702}.Debug|x86.Build.0 = Debug|Win32
+		{DA91B809-3C48-415E-8C12-F179D9950702}.Release|x64.ActiveCfg = Release|x64
+		{DA91B809-3C48-415E-8C12-F179D9950702}.Release|x64.Build.0 = Release|x64
+		{DA91B809-3C48-415E-8C12-F179D9950702}.Release|x86.ActiveCfg = Release|Win32
+		{DA91B809-3C48-415E-8C12-F179D9950702}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9D405EA-8752-4AA1-8A2E-BFB7F4C86556}
+	EndGlobalSection
+EndGlobal
